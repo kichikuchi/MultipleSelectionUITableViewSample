@@ -20,9 +20,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         // 編集モード時に複数選択モードを指定
         tableView.allowsMultipleSelectionDuringEditing = true
-        
-        // チェックマークの色を指定
-        tableView.setValue(UIColor.redColor(), forKey: "multiselectCheckmarkColor")
     }
     
     // MARK: - TableViewDelegate, Datasource
